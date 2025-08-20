@@ -1,0 +1,4 @@
+*.so
+*.h
+.devcontainer/smtpd/dist/*
+.DS_Store
