@@ -1,1 +1,2 @@
-.devcontainer/Dockerfile linguist-vendored
+.devcontainer/**/Dockerfile linguist-vendored
+.devcontainer/**/entrypoint.sh linguist-vendored
