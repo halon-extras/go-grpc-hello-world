@@ -1,6 +1,6 @@
 module halon-extras/go-grpc/hello-world
 
-go 1.24.0
+go 1.26
 
 require (
 	google.golang.org/grpc v1.75.0

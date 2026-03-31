@@ -20,9 +20,9 @@ RUN apt-get update && apt-get install -y build-essential cmake  git curl
 
 RUN mkdir /tmp/halon
 RUN cd /tmp/halon \
-    && curl -O -L https://go.dev/dl/go1.25.0.linux-amd64.tar.gz \
-    && echo "2852af0cb20a13139b3448992e69b868e50ed0f8a1e5940ee1de9e19a123b613 go1.25.0.linux-amd64.tar.gz" | sha256sum -c \
-    && tar -C /usr/local -xzf go1.25.0.linux-amd64.tar.gz
+    && curl -O -L https://go.dev/dl/go1.26.1.linux-amd64.tar.gz \
+    && echo "031f088e5d955bab8657ede27ad4e3bc5b7c1ba281f05f245bcc304f327c987a go1.26.1.linux-amd64.tar.gz" | sha256sum -c \
+    && tar -C /usr/local -xzf go1.26.1.linux-amd64.tar.gz
 
 ENV PATH="/usr/local/go/bin/:/root/go/bin/:${PATH}"
 
